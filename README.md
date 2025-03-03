@@ -17,11 +17,11 @@ Error Handling: Includes error handling for missing files or failed email sends.
 # Prerequisites
 Before running the script, ensure you have the following:
 
-Python 3.x installed on your system.
+1. Python 3.x installed on your system.
+2. A Gmail account with App Password enabled (if 2FA is enabled on your account).
+3. Required Python libraries installed. You can install them using:
 
-Required Python libraries installed. You can install them using:
+```bash
+ pip install pyfiglet termcolor
 
 
-```bash pip install pyfiglet termcolor
-
-A Gmail account with App Password enabled (if 2FA is enabled on your account).
